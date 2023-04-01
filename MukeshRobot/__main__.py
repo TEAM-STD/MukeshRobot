@@ -216,7 +216,7 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             
             x=update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAI33mLYLNLilbRI-sKAAob0P7koTEJNAAIOBAACl42QVKnra4sdzC_uKQQ")
+                "CAACAgUAAx0CdMX5qAACAwtkJ-uGr6vvv3eRtZA973Rdv4k9qgACaAYAAuVWQVcD_-QIQv8nni8E")
             x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
@@ -408,7 +408,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="🥀sᴏᴜʀᴄᴇ🥀",
-                            url="https://github.com/noob-mukesh/MukeshRobot",
+                            url="https://t.me/teamstdnetwork",
                         ),
                     ],
                     [
@@ -429,7 +429,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🚩sᴜᴩᴩᴏʀᴛ🚩", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="💗ᴜᴩᴅᴀᴛᴇs💓", url=f"https://t.me/mukeshbotzone"
+                            text="💗ᴜᴩᴅᴀᴛᴇs💓", url=f"https://t.me/teamstdnetwork"
                         ),
                     ],
                     [
@@ -437,7 +437,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🥀ᴅᴇᴠᴇʟᴏᴩᴇʀ🥀", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="✨ɢɪᴛʜᴜʙ✨", url="https://github.com/noob-mukesh"
+                            text="✨ɢɪᴛʜᴜʙ✨", url="https://t.me/teamstdnetwork"
                         ),
                     ],
                     [
@@ -902,7 +902,7 @@ def main():
 ㅤ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
 
 ─╼⃝𖠁-----------------𖠁⃝╾─•
-ᴍᴀᴅᴇ ᴡɪᴛʜ ❤  ʙʏ [ᴍᴜᴋᴇsʜ]("t.me/mr_sukkun")""",
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤  ʙʏ [ʀᴏʙᴏᴛ]("t.me/std_deepanshu")""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
