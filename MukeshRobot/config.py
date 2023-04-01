@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "" # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = "2145093972" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Mr_sukkun"
-    SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
+    API_ID = "24232903" # integer value, dont use ""
+    API_HASH = "977a10e8cb23b5aa883faf622b972312"
+    TOKEN = "6117842093:AAELpkdFapHP-xtJXMW_klIj9eVV-SUBFj0"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = "6126496468" # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Faizkh_01"
+    SUPPORT_CHAT = "StdLogs"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001770762410
+        -1001946195853
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001770762410
+        -1001946195853
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://cmrwjple:HusQi3UV2UrfOe8j0VUFLZ3KssotfCZt@isilo.db.elephantsql.com/cmrwjpe"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -39,15 +39,15 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "2145093972")
+    DRAGONS = get_user_list("elevated_users.json", "5748049751")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "2145093972")
+    DEV_USERS = get_user_list("elevated_users.json", "5748049751")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("elevated_users.json", "2145093972")
+    DEMONS = get_user_list("elevated_users.json", "5748049751")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list("elevated_users.json", "2145093972")
+    TIGERS = get_user_list("elevated_users.json", "5748049751")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
-    DONATION_LINK = "https://t.me/itz_legend_coder" # EG, paypal
+    DONATION_LINK = "https://t.me/STD_SUNNY" # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
@@ -58,9 +58,9 @@ class Config(object):
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "D0ZCZ67KL8OTL0PY"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "5ZLE0KZDB73URIJO"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "5LB4TAKPEKZ0"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = "E0HB8DSRKFQF"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
         ""  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
